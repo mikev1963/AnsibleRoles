@@ -8,7 +8,7 @@
 - name: Call Roles
   hosts: 192.168.1.131
   roles:
-   -role: motd
+   - role: motd
    #- firewalld
    #- ntp-config
    #- motd
